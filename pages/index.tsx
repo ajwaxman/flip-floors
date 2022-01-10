@@ -35,7 +35,7 @@ const FlipFloor = ({ flips, compositions, lastUpdate }: Props) => {
                 </p> */}
                 <p className="text-gray-400 text-sm mv-4 mb-3">Last updated {ts(lastUpdate)}</p>
                 <a href="/palettes" className="text-[#6bc04e] text-xs mv-4 mb-5">🎨 <span className="underline">View rankings by Palette</span></a>
-                <p className="text-orange-500 text-xs mv-4 mb-2 mt-4"> 🚧 The data is not updating properly. This is being actively looked into. Thank you for your patience. 🚧</p>
+                {/* <p className="text-orange-500 text-xs mv-4 mb-2 mt-4"> 🚧 The data is not updating properly. This is being actively looked into. Thank you for your patience. 🚧</p> */}
             </div>
             <div className="grid md:grid-cols-1 pt-2 mb-20 text-white place-content-center">
                 <div className="flex flex-col">
