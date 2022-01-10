@@ -23,10 +23,10 @@ interface Props {
 const FlipFloor = ({ flips, compositions, lastUpdate }: Props) => {
     return (
         <div className="py-3 md:pb-0 font-mono tracking-tighter flex flex-col justify-center items-center gap-4 pt-10 md:w-screen">
-            <div className="fixed top-3 right-3 text-gray-400" style={{fontSize: "12px"}}>
+            <div className="absolute top-3 right-3 text-gray-400" style={{fontSize: "12px"}}>
                 Good flip? Feel free to <a className="text-sky-300 underline" href="https://opensea.io/yoshi_nft">tip</a>
             </div>
-            <div className="fixed top-3 left-3 text-gray-400" style={{fontSize: "12px"}}>
+            <div className="absolute top-3 left-3 text-gray-400" style={{fontSize: "12px"}}>
                 Created by <a className="text-sky-300 underline" href="https://twitter.com/ajwaxman">@ajwaxman</a>
             </div>
             <h1 className="text-lg mt-4 text-gray-100 md:text-2xl font-bold"><span className="pr-1">🎨</span> Flipmap Palette Floor Rankings</h1>
